@@ -31,6 +31,42 @@ const SocialLinks = () => {
 					<i className="fa fa-linkedin" />
 				</span>
 			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="danger"
+				rel="noopener"
+				aria-label="Email"
+				href={socialLinks.email}
+				target="_blank"
+			>
+				<span className="btn-inner--icon">
+					<i className="fa fa-envelope" />
+				</span>
+			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="instagram"
+				rel="noopener"
+				aria-label="instagram"
+				href={socialLinks.instagram}
+				target="_blank"
+			>
+				<span className="btn-inner--icon">
+					<i className="fa fa-instagram" />
+				</span>
+			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="facebook"
+				rel="noopener"
+				aria-label="Facebook"
+				href={socialLinks.facebook}
+				target="_blank"
+			>
+				<span className="btn-inner--icon">
+					<i className="fa fa-facebook" />
+				</span>
+			</Button>
 		</div>
 	);
 };

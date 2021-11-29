@@ -11,10 +11,8 @@ const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const TeachingExperience = dynamic(() => import("../containers/TeachingExperience"));
 const LeadershipExperience = dynamic(() => import("../containers/LeadershipExperience"));
 const Podcasts = dynamic(() => import("../containers/Podcasts"));
-const GithubProfileCard = dynamic(() =>
-	import("../components/GithubProfileCard")
-);
-import { openSource } from "../portfolio";
+const ContactMe = dynamic(() => import("../containers/ContactMe"));
+
 import SEO from "../components/SEO";
 
 export default function Home({ githubProfileData }) {
@@ -73,26 +71,11 @@ export default function Home({ githubProfileData }) {
 			{/* <Proficiency /> */}
 			<Experience />
 			<Education />
-			{/* <Feedbacks /> */}
 			<Projects />
 			<TeachingExperience />
 			<LeadershipExperience />
 			<Podcasts />
-			<GithubProfileCard prof={githubProfileData} />
+			<ContactMe />
 		</div>
 	);
-}
-
-Home.prototype = {
-	githubProfileData: PropTypes.object.isRequired,
-};
-
-export async function getStaticProps(_) {
-	const githubProfileData = await fetch(
-		`https://api.github.com/users/${openSource.githubUserName}`
-	).then((res) => res.json());
-
-	return {
-		props: { githubProfileData },
-	};
 }

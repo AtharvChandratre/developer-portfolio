@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
-import emoji from "react-easy-emoji";
 
 import { Button, Container, Row, Col } from "reactstrap";
 
 import GreetingLottie from "../components/DisplayLottie";
-import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
 	useEffect(() => {

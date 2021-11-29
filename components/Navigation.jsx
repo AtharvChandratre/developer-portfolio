@@ -81,7 +81,7 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								<NavItem>
+								<NavItem >
 									<NavLink
 										rel="noopener"
 										aria-label="Skills"
@@ -155,6 +155,17 @@ const Navigation = () => {
 									>
 										<span className="nav-link mb-sm-3 mb-md-0">
 											Podcasts
+										</span>
+									</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink
+										rel="noopener"
+										aria-label="Contact Me"
+										href={"#contact-me"}
+									>
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Contact
 										</span>
 									</NavLink>
 								</NavItem>

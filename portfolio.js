@@ -17,12 +17,11 @@ export const contact = {};
 
 export const socialLinks = {
 	display: true,
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
-	email: "atharvchandratre@gmail.com"
+	facebook: "https://www.facebook.com/atharv.chandratre",
+	instagram: "https://www.instagram.com/atharv_chandra3/",
+	github: "https://github.com/AtharvChandratre",
+	linkedin: "https://www.linkedin.com/in/atharv-chandratre/",
+	email: "mailto:atharvchandratre@gmail.com"
 };
 
 export const skillsSection = {
