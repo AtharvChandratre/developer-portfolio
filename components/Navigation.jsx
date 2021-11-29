@@ -147,6 +147,17 @@ const Navigation = () => {
 										</span>
 									</NavLink>
 								</NavItem>
+								<NavItem>
+									<NavLink
+										rel="noopener"
+										aria-label="Podcasts"
+										href={"#podcasts"}
+									>
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Podcasts
+										</span>
+									</NavLink>
+								</NavItem>
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

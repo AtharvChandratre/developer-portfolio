@@ -10,6 +10,7 @@ const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const TeachingExperience = dynamic(() => import("../containers/TeachingExperience"));
 const LeadershipExperience = dynamic(() => import("../containers/LeadershipExperience"));
+const Podcasts = dynamic(() => import("../containers/Podcasts"));
 const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
@@ -76,6 +77,7 @@ export default function Home({ githubProfileData }) {
 			<Projects />
 			<TeachingExperience />
 			<LeadershipExperience />
+			<Podcasts />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
