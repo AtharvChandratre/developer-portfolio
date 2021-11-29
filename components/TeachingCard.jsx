@@ -72,7 +72,7 @@ const TeachingCard = ({ data }) => {
 										rel="noopener" aria-label="Landing Page"
 									>
 										<span className="btn-inner--icon">
-                                        <i class="fa fa-paper-plane mr-2"></i>
+                                        <i className="fa fa-paper-plane mr-2"></i>
 										</span>
 										<span className="nav-link-inner--text ml-1">
 											Landing Page
