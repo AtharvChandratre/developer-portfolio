@@ -117,7 +117,7 @@ const TeachingCard = ({ data }) => {
 								) : null}
 								{data.certificate2 ? (
 									<Button
-										className="btn-icon"
+										className="mb-2 btn-icon"
 										color="facebook"
 										href={data.certificate2}
 										target="_blank"
@@ -135,7 +135,7 @@ const TeachingCard = ({ data }) => {
 								) : null}
 								{data.certificate1 ? (
 									<Button
-										className="btn-icon"
+										className="mb-2 btn-icon"
 										color="facebook"
 										href={data.certificate1}
 										target="_blank"
