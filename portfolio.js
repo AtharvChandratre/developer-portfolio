@@ -121,6 +121,7 @@ export const educationInfo = [
 		subHeader: "Bachelor of Engineering in Computer Science",
 		duration: "August 2017 - June 2021",
 		desc: "Graduated with a CGPA of 8.62",
+		logo: "/img/icons/common/bitslogo.svg",
 		// descBullets: [
 		// 	"",
 		// ],

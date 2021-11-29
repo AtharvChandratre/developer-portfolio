@@ -10,19 +10,19 @@ const Edution = () => {
 				<div className="d-flex px-3 align-items-center pt-4">
 					<div>
 						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-							<i className="ni ni-books text-info" />
+							<span className="iconify" data-icon="fa-solid:university"></span>
 						</div>
 					</div>
 					<div className="pl-4 pt-2">
 						<h4 className="display-3 text-info">Education</h4>
 					</div>
 				</div>
-				<Row className="row-grid align-items-center">
+				<Row className="row-grid align-items-center justify-content-center">
 					{educationInfo.map((info) => {
 						return (
 							<Col
 								className="order-lg-1"
-								lg="6"
+								lg="12"
 								key={info.schoolName}
 							>
 								<EdutionCard education={info} />
