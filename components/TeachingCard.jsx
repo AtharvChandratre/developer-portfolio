@@ -129,7 +129,7 @@ const TeachingCard = ({ data }) => {
 												data-inline="false"
 											></span>
 										<span className="nav-link-inner--text ml-1">
-											Certificate '20
+											Certificate &apos;20
 										</span>
 									</Button>
 								) : null}
@@ -147,7 +147,7 @@ const TeachingCard = ({ data }) => {
 												data-inline="false"
 											></span>
 										<span className="nav-link-inner--text ml-1">
-											Certificate '19
+											Certificate &apos;19
 										</span>
 									</Button>
 								) : null}
