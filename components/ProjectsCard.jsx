@@ -28,6 +28,9 @@ const ProjectsCard = ({ data }) => {
 										<span className="btn-inner--icon">
 											<i className="fa fa-github" />
 										</span>
+										<span className="nav-link-inner--text ml-1">
+											Code
+										</span>
 									</Button>
 								) : null}
 								{data.demo ? (
