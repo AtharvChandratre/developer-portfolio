@@ -286,3 +286,22 @@ export const feedbacks = [
 			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
 	},
 ];
+
+export const leadership = [
+	{
+		role: "Founder and President",
+		company: "Blockchain Club, BITS Goa",
+		companylogo: "/img/icons/common/blockchain-club.svg",
+		date: "Jun 2019 – May 2020",
+		desc: "Founded the Blockchain Club, BITS Goa and grew it to one of the largest university-based blockchain clubs in India. Conducted talks, events and hackathons, and played a pivotal role in creating a strong culture around blockchain technology at my university.",
+		certificate: "https://drive.google.com/file/d/1_EoW8M6h35xryBHxKvRtMWrddqYorR7Y/view"
+	},
+	{
+		role: "Coordinator",
+		company: "BITSMUN",
+		companylogo: "/img/icons/common/bitsmun.svg",
+		date: "Aug 2019 – May 2020",
+		desc: "Led a team of over 40 people to organize the conference. Achieved a 100% increase in year-on-year profit in the 2020 edition. Persuaded 6 NGOs and 15 MUNs to partner with us, with names like RedDot, The Dais and LonePack.",
+		certificate: "https://drive.google.com/file/d/1AXIKuVA6GvKp-J1gmKh0yNhP7egPjK4D/view"
+	}
+];

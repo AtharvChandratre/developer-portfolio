@@ -37,11 +37,11 @@ const Navigation = () => {
 					id="navbar-main"
 				>
 					<Container>
-						<NavbarBrand href="#landing" className="mr-lg-5">
+						{/* <NavbarBrand href="#landing" className="mr-lg-5">
 							<h2 className="text-white" id="nav-title">
 								{greetings.name}
 							</h2>
-						</NavbarBrand>
+						</NavbarBrand> */}
 						<button
 							className="navbar-toggler"
 							aria-label="navbar_toggle"
@@ -133,6 +133,17 @@ const Navigation = () => {
 									>
 										<span className="nav-link mb-sm-3 mb-md-0">
 											Teaching
+										</span>
+									</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink
+										rel="noopener"
+										aria-label="Leadership Experience"
+										href={"#leadership-experience"}
+									>
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Leadership
 										</span>
 									</NavLink>
 								</NavItem>
