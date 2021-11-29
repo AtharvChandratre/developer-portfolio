@@ -5,15 +5,15 @@ import { Container, Row, Col } from "reactstrap";
 
 const Edution = () => {
 	return (
-		<section className="section pb-0 bg-gradient-info my-5">
+		<section className="pt-2 pb-5 bg-gradient-info my-0" id="education">
 			<Container>
-				<div className="d-flex px-3">
+				<div className="d-flex px-3 align-items-center pt-4">
 					<div>
 						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
 							<i className="ni ni-books text-info" />
 						</div>
 					</div>
-					<div className="pl-4">
+					<div className="pl-4 pt-2">
 						<h4 className="display-3 text-white">Education</h4>
 					</div>
 				</div>
@@ -31,7 +31,7 @@ const Edution = () => {
 					})}
 				</Row>
 			</Container>
-			<div className="separator separator-bottom separator-skew zindex-100">
+			{/* <div className="separator separator-bottom separator-skew zindex-100">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					preserveAspectRatio="none"
@@ -45,7 +45,7 @@ const Edution = () => {
 						points="2560 0 2560 100 0 100"
 					/>
 				</svg>
-			</div>
+			</div> */}
 		</section>
 	);
 };

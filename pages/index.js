@@ -8,6 +8,7 @@ const Education = dynamic(() => import("../containers/Education"));
 const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
+const TeachingExperience = dynamic(() => import("../containers/TeachingExperience"));
 const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
@@ -19,19 +20,34 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Atharv Chandratre",
+					title: "Atharv Chandratre | Portfolio",
 					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
+						"I'm a passionate technologist interested in web and blockchain technologies. I love to explore the disruptive potential of blockchain in present-day systems, especially at its intersection with finance. In my free time, I play badminton, do origami and overthink.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					url: "https://developer-portfolio-atharvchandratre.vercel.app/",
 					keywords: [
 						"Atharv",
 						"Atharv Chandratre",
-						"@1hanzla100",
-						"1hanzla100",
 						"Portfolio",
 						"Atharv Portfolio ",
 						"Atharv Chandratre Portfolio",
+						"blockchain",
+						"solidity",
+						"chainlink",
+						"cryptocurrency",
+						"crypto",
+						"smart contract",
+						"smart contracts",
+						"infura",
+						"truffle",
+						"truffle suite",
+						"decentralized",
+						"decenttralized application",
+						"decentralized applications",
+						"dapps",
+						"dapp",
+						"blockchain developer",
+						"full stack blockchain developer",
 						"web developer",
 						"full stack",
 						"full stack web developer",
@@ -45,18 +61,19 @@ export default function Home({ githubProfileData }) {
 						"reactjs ",
 						"contextapi",
 						"redux",
-						"flutter",
+						"flutter"
 					],
 				}}
 			/>
 			<Navigation />
 			<Greetings />
 			<Skills />
-			<Proficiency />
-			<Education />
+			{/* <Proficiency /> */}
 			<Experience />
-			<Feedbacks />
+			<Education />
+			{/* <Feedbacks /> */}
 			<Projects />
+			<TeachingExperience />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);

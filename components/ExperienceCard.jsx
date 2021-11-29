@@ -21,18 +21,26 @@ const ExperienceCard = ({ data }) => {
 			<Fade left duration={1000} distance="40px">
 				<Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover shadow border-0 text-center rounded"
+					className="shadow-lg--hover shadow border-0 text-center rounded mb-4"
 				>
 					<Color src={data.companylogo} format="hex">
 						{(color) => (
-							<CardHeader style={{ background: color.data }}>
+							data.company === 'Goldman Sachs' ?
+							(<CardHeader style={{ background: '#0E3D66' }}>
 								<h5 className="text-white">{data.company}</h5>
-							</CardHeader>
+							</CardHeader>)
+							: data.company === 'PrimeChain' ?
+							(<CardHeader style={{ background: '#48B8F0' }}>
+								<h5 className="text-white">{data.company}</h5>
+							</CardHeader>)
+							: (<CardHeader style={{ background: color.data }}>
+							<h5 className="text-white">{data.company}</h5>
+						</CardHeader>)
 						)}
 					</Color>
-					<CardBody className="py-5">
+					<CardBody className="py-3">
 						<div
-							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
+							className="bg-white square mb-3 img-center img-fluid shadow-lg "
 							style={{ width: "100px", height: "100px" }}
 						>
 							<Image
@@ -44,7 +52,7 @@ const ExperienceCard = ({ data }) => {
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
-						<CardText className="description my-3 text-left">
+						<CardText className="description my-2 text-left">
 							{data.desc}
 							<ul>
 								{data.descBullets

@@ -9,15 +9,16 @@ import { skillsSection } from "../portfolio";
 const Skills = () => {
 	return (
 		<Fade bottom duration={1000} distance="40px">
-			<Container className="text-center my-5 section section-lg">
+			<Container className="text-center section" id="skills">
 				<h1 className="h1">{skillsSection.title}</h1>
 				<p className="lead">{skillsSection.subTitle}</p>
 				<Row>
 					<Col lg="6">
-						<DisplayLottie animationPath="/lottie/webdev.json" />
+						<DisplayLottie animationPath="/lottie/webdev.json" height={450}/>
 					</Col>
-					<Col lg="6">
-						<div className="d-flex justify-content-center flex-wrap mb-5">
+					<Col lg="1"></Col>
+					<Col lg="4">
+						<div className="d-flex justify-content-center flex-wrap mb-2">
 							{skillsSection.softwareSkills.map((skill) => {
 								return (
 									<Fragment key={skill.skillName}>
@@ -45,7 +46,7 @@ const Skills = () => {
 							})}
 						</div>
 						<div>
-							{skillsSection.skills.map((skill) => {
+							{skillsSection?.skills?.map((skill) => {
 								return <p key={skill}>{skill}</p>;
 							})}
 						</div>

@@ -37,7 +37,7 @@ const Navigation = () => {
 					id="navbar-main"
 				>
 					<Container>
-						<NavbarBrand href="/" className="mr-lg-5">
+						<NavbarBrand href="#landing" className="mr-lg-5">
 							<h2 className="text-white" id="nav-title">
 								{greetings.name}
 							</h2>
@@ -84,70 +84,55 @@ const Navigation = () => {
 								<NavItem>
 									<NavLink
 										rel="noopener"
-										aria-label="Facebook"
-										className="nav-link-icon"
-										href={socialLinks.facebook}
-										target="_blank"
+										aria-label="Skills"
+										href={"#skills"}
 									>
-										<i className="fa fa-facebook-square" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Facebook
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Skills
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
 										rel="noopener"
-										aria-label="Instagram"
-										className="nav-link-icon"
-										href={socialLinks.instagram}
-										target="_blank"
+										aria-label="Experience"
+										href={"#experience"}
 									>
-										<i className="fa fa-instagram" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Instagram
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Experience
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
 										rel="noopener"
-										aria-label="Twitter"
-										className="nav-link-icon"
-										href={socialLinks.twitter}
-										target="_blank"
+										aria-label="Education"
+										href={"#education"}
 									>
-										<i className="fa fa-twitter-square" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Twitter
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Education
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
 										rel="noopener"
-										aria-label="Github"
-										className="nav-link-icon"
-										href={socialLinks.github}
-										target="_blank"
+										aria-label="Projects"
+										href={"#projects"}
 									>
-										<i className="fa fa-github" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Github
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Projects
 										</span>
 									</NavLink>
 								</NavItem>
 								<NavItem>
 									<NavLink
 										rel="noopener"
-										aria-label="Linkedin"
-										className="nav-link-icon"
-										href={socialLinks.linkedin}
-										target="_blank"
+										aria-label="Teaching Experience"
+										href={"#teaching-experience"}
 									>
-										<i className="fa fa-linkedin" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Linkedin
+										<span className="nav-link mb-sm-3 mb-md-0">
+											Teaching
 										</span>
 									</NavLink>
 								</NavItem>

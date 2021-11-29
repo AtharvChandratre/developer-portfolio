@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
+import emoji from "react-easy-emoji";
 
 import { Button, Container, Row, Col } from "reactstrap";
 
@@ -13,8 +14,8 @@ const Greetings = () => {
 	});
 	return (
 		<main>
-			<div className="position-relative">
-				<section className="section section-lg section-shaped pb-250">
+			<div className="position-relative" id="landing">
+				<section className="section section-lg section-shaped pb-10">
 					<div className="shape shape-style-1 bg-gradient-info">
 						<span />
 						<span />
@@ -36,12 +37,25 @@ const Greetings = () => {
 									<p className="lead text-white">
 										{greetings.description}
 									</p>
-									<SocialLinks />
+									{/* <SocialLinks /> */}
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
+											href={"mailto:"+greetings.emailAddress}
+										>
+											<span className="btn-inner--icon mr-1">
+												<i className="fa fa-envelope" />
+											</span>
+											<span className="btn-inner--text">
+												Contact Me
+											</span>
+										</Button>
+										{greetings?.resumeLink && <Button
+											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+											color="default"
 											href={greetings.resumeLink}
+											target="_blank"
 										>
 											<span className="btn-inner--icon mr-1">
 												<i className="fa fa-file" />
@@ -49,7 +63,7 @@ const Greetings = () => {
 											<span className="btn-inner--text">
 												See My Resume
 											</span>
-										</Button>
+										</Button>}
 									</div>
 								</Col>
 								<Col lg="6">
