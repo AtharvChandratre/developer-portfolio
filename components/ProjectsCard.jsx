@@ -58,7 +58,7 @@ const ProjectsCard = ({ data }) => {
 											<i className="fa fa-file mr-2" />
 										</span>
 										<span className="nav-link-inner--text ml-1">
-											SSRN Link
+											SSRN
 										</span>
 									</Button>
 								) : null}
