@@ -67,7 +67,7 @@ const TeachingCard = ({ data }) => {
 									<Button
 										className="btn-icon mb-2"
 										color="success"
-										href={data.ssrn}
+										href={data.landingPage}
 										target="_blank"
 										rel="noopener" aria-label="Landing Page"
 									>
