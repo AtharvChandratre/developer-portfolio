@@ -14,7 +14,7 @@ const LeadershipExperience = () => {
 					<div className="d-flex p-4 align-items-center">
 						<div>
 							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                                <span class="iconify" data-icon="fa-solid:users"></span>
+                                <span className="iconify" data-icon="fa-solid:users"></span>
 							</div>
 						</div>
 						<div className="pl-4 pt-2">

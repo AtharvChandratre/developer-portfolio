@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 
 const TeachingExperience = () => {
 	return (
-		<section className="bg-gradient-info pb-5 pt-2" id="teaching-experience">
+		<section className="bg-gradient-white pb-5 pt-2" id="teaching-experience">
 			<Container>
 				<Fade bottom duration={1000} distance="40px">
 					<div className="d-flex p-4 align-items-center">
@@ -17,7 +17,7 @@ const TeachingExperience = () => {
 							</div>
 						</div>
 						<div className="pl-4 pt-2">
-							<h4 className="display-3 text-white">Teaching Experience</h4>
+							<h4 className="display-3 text-info">Teaching Experience</h4>
 						</div>
 					</div>
 					<Row className="row-grid align-items-center">

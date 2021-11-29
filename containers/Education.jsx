@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const Edution = () => {
 	return (
-		<section className="pt-2 pb-5 bg-gradient-info my-0" id="education">
+		<section className="pt-2 pb-5 bg-gradient-white my-0" id="education">
 			<Container>
 				<div className="d-flex px-3 align-items-center pt-4">
 					<div>
@@ -14,7 +14,7 @@ const Edution = () => {
 						</div>
 					</div>
 					<div className="pl-4 pt-2">
-						<h4 className="display-3 text-white">Education</h4>
+						<h4 className="display-3 text-info">Education</h4>
 					</div>
 				</div>
 				<Row className="row-grid align-items-center">
