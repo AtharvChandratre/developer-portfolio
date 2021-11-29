@@ -23,7 +23,7 @@ const Skills = () => {
 								return (
 									<Fragment key={skill.skillName}>
 										<div
-											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
+											className="icon icon-lg icon-shape mb-5"
 											id={skill.skillName}
 										>
 											<span

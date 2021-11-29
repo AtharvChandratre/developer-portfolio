@@ -22,9 +22,7 @@ const ContactMe = () => {
 					</div>
 					<h4 className="d-flex text-white pb-3 pl-4 ">Do you have a project idea in mind, or just want to say hi? My inbox is open to all!</h4>
                     <div className="d-flex justify-content-center">
-                        <Card className="p-2">
-                            <SocialLinks />
-                        </Card>
+                        <SocialLinks />
                     </div>
 				</Fade>
 			</Container>
