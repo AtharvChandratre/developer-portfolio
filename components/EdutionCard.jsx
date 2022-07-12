@@ -22,7 +22,7 @@ const EdutionCard = ({ education }) => {
 						>
 							<Image
 								src={education.logo}
-								width={"200px"}
+								width={"300px"}
 								height={"200px"}
 								alt={education.logo}
 							/>

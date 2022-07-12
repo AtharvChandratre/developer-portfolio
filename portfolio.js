@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Atharv Chandratre",
 	description:
 		"I'm a passionate technologist interested in web and blockchain technologies. I love to explore the disruptive potential of blockchain in present-day systems. In my free time, I play badminton, do origami and overthink.",
-	resumeLink: "https://drive.google.com/file/d/1n9FiIsTgXokj__F7AW5PZU6v9wNReZ4m/view?usp=sharing", //enter resume link
+	resumeLink: "https://drive.google.com/file/d/1Z7-yOuNHbfBgPdjyoLmKIOWhbQsyCHyw/view?usp=sharing", //enter resume link
 	emailAddress: "atharvchandratre@gmail.com"
 };
 
@@ -117,6 +117,16 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
+		schoolName: "University of Illinois, Urbana-Champaign",
+		subHeader: "Masters of Science in Computer Science",
+		duration: "August 2022 - June 2024",
+		desc: "Currently studying here",
+		logo: "/img/icons/common/uiuc-logo.png",
+		// descBullets: [
+		// 	"",
+		// ],
+	},
+	{
 		schoolName: "BITS Pilani, K.K. Birla Goa Campus",
 		subHeader: "Bachelor of Engineering in Computer Science",
 		duration: "August 2017 - June 2021",
@@ -161,7 +171,7 @@ export const experience = [
 		role: "Analyst",
 		company: "Goldman Sachs",
 		companylogo: "/img/icons/common/goldmansachs.svg",
-		date: "July 2021 – Present",
+		date: "July 2021 – June 2022",
 		desc: "Building the technology that drives the Conflicts Resolution Group to ensure no conflicts of interest arise in business deals"
 	},
 	{

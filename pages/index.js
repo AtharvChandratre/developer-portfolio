@@ -23,8 +23,8 @@ export default function Home({ githubProfileData }) {
 					title: "Atharv Chandratre | Portfolio",
 					description:
 						"I'm a passionate technologist interested in web and blockchain technologies. I love to explore the disruptive potential of blockchain in present-day systems, especially at its intersection with finance. In my free time, I play badminton, do origami and overthink.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-atharvchandratre.vercel.app/",
+					image: "https://media-exp1.licdn.com/dms/image/C5603AQGK1Zc_CNCXaA/profile-displayphoto-shrink_400_400/0/1639934873557?e=1648684800&v=beta&t=yu3ybHoVwOaa5rfX4yro_3pM0tuYv2pmM512A6fc37A",
+						url: "https://developer-portfolio-atharvchandratre.vercel.app/",
 					keywords: [
 						"Atharv",
 						"Atharv Chandratre",
