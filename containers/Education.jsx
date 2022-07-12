@@ -17,7 +17,7 @@ const Edution = () => {
 						<h4 className="display-3 text-info">Education</h4>
 					</div>
 				</div>
-				<Row className="row-grid align-items-center justify-content-center">
+				<Row className="row-grid align-items-center">
 					{educationInfo.map((info) => {
 						return (
 							<Col
