@@ -20,13 +20,7 @@ const Edution = () => {
 				<Row className="row-grid align-items-center">
 					{educationInfo.map((info) => {
 						return (
-							<Col
-								className="order-lg-1"
-								lg="12"
-								key={info.schoolName}
-							>
-								<EdutionCard education={info} />
-							</Col>
+								<EdutionCard key={info} education={info} />
 						);
 					})}
 				</Row>
