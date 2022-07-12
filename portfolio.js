@@ -117,6 +117,16 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
+		schoolName: "University of Illinois, Urbana-Champaign",
+		subHeader: "Masters of Science in Computer Science",
+		duration: "August 2022 - June 2024",
+		desc: "Currently studying here",
+		logo: "/img/icons/common/uiuc-logo.png",
+		// descBullets: [
+		// 	"",
+		// ],
+	},
+	{
 		schoolName: "BITS Pilani, K.K. Birla Goa Campus",
 		subHeader: "Bachelor of Engineering in Computer Science",
 		duration: "August 2017 - June 2021",
@@ -161,7 +171,7 @@ export const experience = [
 		role: "Analyst",
 		company: "Goldman Sachs",
 		companylogo: "/img/icons/common/goldmansachs.svg",
-		date: "July 2021 – Present",
+		date: "July 2021 – June 2022",
 		desc: "Building the technology that drives the Conflicts Resolution Group to ensure no conflicts of interest arise in business deals"
 	},
 	{
