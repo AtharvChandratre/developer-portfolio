@@ -121,7 +121,7 @@ export const educationInfo = [
 		subHeader: "Masters of Science in Computer Science",
 		duration: "August 2022 - June 2024",
 		desc: "Currently studying here",
-		logo: "/img/icons/common/uiuc.svg",
+		logo: "/img/icons/common/uiuc.jpg",
 		// descBullets: [
 		// 	"",
 		// ],
