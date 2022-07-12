@@ -22,7 +22,7 @@ const Edution = () => {
 						return (
 							<Col
 								className="order-lg-1"
-								lg="6"
+								lg="12"
 								key={info.schoolName}
 							>
 								<EdutionCard education={info} />
