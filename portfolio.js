@@ -178,7 +178,7 @@ export const experience = [
 		role: "Protocol Developer Engineer",
 		company: "IOHK",
 		companylogo: "/img/icons/common/iohk.svg",
-		date: "Aug 2021 – Nov 2021",
+		date: "Apr 2021 – Jun 2021",
 		desc: "Worked with the IOHK team to implement the Prism Consensus Protocol under the advisory of Prof. Pramod Viswanath.",
 	},
 	{
