@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Atharv Chandratre",
 	description:
 		"I'm a passionate technologist interested in web and blockchain technologies. I love to explore the disruptive potential of blockchain in present-day systems. In my free time, I play badminton, do origami and overthink.",
-	resumeLink: "https://drive.google.com/file/d/1Z7-yOuNHbfBgPdjyoLmKIOWhbQsyCHyw/view?usp=sharing", //enter resume link
+	resumeLink: "https://drive.google.com/file/d/1iEtCjZ9RdGXkTj4km6ZTXy3OmljOx_Yk/view?usp=share_link", //enter resume link
 	emailAddress: "atharvchandratre@gmail.com"
 };
 
