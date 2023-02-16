@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Atharv Chandratre",
 	description:
 		"I'm a passionate technologist interested in web and blockchain technologies. I love to explore the disruptive potential of blockchain in present-day systems. In my free time, I play badminton, do origami and overthink.",
-	resumeLink: "https://drive.google.com/file/d/1iEtCjZ9RdGXkTj4km6ZTXy3OmljOx_Yk/view?usp=share_link", //enter resume link
+	resumeLink: "https://drive.google.com/file/d/1S67zgqFYy6qgnN5NHiKHCE-ahlEO8-jK/view?usp=share_link", //enter resume link
 	emailAddress: "atharvchandratre@gmail.com"
 };
 
@@ -174,13 +174,13 @@ export const experience = [
 		date: "July 2021 – June 2022",
 		desc: "Building the technology that drives the Conflicts Resolution Group to ensure no conflicts of interest arise in business deals"
 	},
-	{
-		role: "Protocol Developer Engineer",
-		company: "IOHK",
-		companylogo: "/img/icons/common/iohk.svg",
-		date: "Aug 2021 – Nov 2021",
-		desc: "Worked with the IOHK team to implement the Prism Consensus Protocol under the advisory of Prof. Pramod Viswanath.",
-	},
+	// {
+	// 	role: "Protocol Developer Engineer",
+	// 	company: "IOHK",
+	// 	companylogo: "/img/icons/common/iohk.svg",
+	// 	date: "Aug 2021 – Nov 2021",
+	// 	desc: "Worked with the IOHK team to implement the Prism Consensus Protocol under the advisory of Prof. Pramod Viswanath.",
+	// },
 	{
 		role: "Software Engineer Intern",
 		company: "Amazon",
