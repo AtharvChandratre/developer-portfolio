@@ -46,8 +46,8 @@ const ExperienceCard = ({ data }) => {
 						>
 							<Image
 								src={data.companylogo}
-								width={"100px"}
-								height={"100px"}
+								width={"100"}
+								height={"100"}
 								alt={data.companylogo}
 							/>
 						</div>

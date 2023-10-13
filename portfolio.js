@@ -174,13 +174,13 @@ export const experience = [
 		date: "July 2021 – June 2022",
 		desc: "Building the technology that drives the Conflicts Resolution Group to ensure no conflicts of interest arise in business deals"
 	},
-	// {
-	// 	role: "Protocol Developer Engineer",
-	// 	company: "IOHK",
-	// 	companylogo: "/img/icons/common/iohk.svg",
-	// 	date: "Aug 2021 – Nov 2021",
-	// 	desc: "Worked with the IOHK team to implement the Prism Consensus Protocol under the advisory of Prof. Pramod Viswanath.",
-	// },
+	{
+		role: "Protocol Developer Engineer",
+		company: "IOHK",
+		companylogo: "/img/icons/common/iohk.svg",
+		date: "Aug 2021 – Nov 2021",
+		desc: "Worked with the IOHK team to implement the Prism Consensus Protocol under the advisory of Prof. Pramod Viswanath.",
+	},
 	{
 		role: "Software Engineer Intern",
 		company: "Amazon",
