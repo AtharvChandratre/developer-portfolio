@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "Atharv Chandratre's developer portfolio to showcase his work",
 	"main": "index.js",
-	"repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
 	"author": "Atharv Chandratre",
 	"license": "MIT",
 	"scripts": {
